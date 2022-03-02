@@ -1,0 +1,39 @@
+
+
+.container{
+    display:grid;
+    width: 90%;
+    margin:auto;
+    margin-top: px;
+
+    grid-template-columns: 30px;
+    grid-template-rows: 70px 400px 1fr;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "sd sd main main main main main main"
+    "ft ft ft ft ft ft ft ft"
+}
+
+.box{
+    border: 1px solid black;
+
+}
+.header{
+    grid-area: hd;
+    justify-content: center;
+}
+
+.left {
+    grid-area:sd;
+
+
+}
+.main{
+    grid-area: main;
+}
+
+.footer {
+
+    grid-area: ft;
+}
+
