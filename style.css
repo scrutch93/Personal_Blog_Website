@@ -16,7 +16,8 @@
 .tabs {
     
     display: flex;
-    background-color: #238994; /* Green */
+    background-color: #152224; 
+    font-family: 'Press Start 2P', cursive;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -34,7 +35,7 @@
 }
 .header{
     grid-area: hd;
-    background-color: rgb(19, 151, 138);
+    background-color: #152224; 
     display: flex;
     justify-content: flex-end;
     flex-direction:row;
@@ -44,13 +45,15 @@
 
 .left {
     grid-area:sd;
-    background-color:blue;
+    background-color:rgb(52, 52, 118);
 
 
 }
 .main{
     grid-area: main;
-    background-color:tan;
+
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a9b34251-7233-4daf-85fe-61977a6e709e/d33giex-532b993e-6f49-4889-b669-611c0c105de5.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9hOWIzNDI1MS03MjMzLTRkYWYtODVmZS02MTk3N2E2ZTcwOWUvZDMzZ2lleC01MzJiOTkzZS02ZjQ5LTQ4ODktYjY2OS02MTFjMGMxMDVkZTUuZ2lmIn1dXX0.fN2PQFe31wu9AST57H82pei8Y7QVNPg_KwM3moQM-OQ);
+    background-color:rgb(186, 177, 165);
 }
 
 #one{
@@ -61,8 +64,7 @@
 .footer {
 
     grid-area: ft;
-    background-color: rgb(19, 151, 138);
+    background-color: #152224; 
     
 }
 
-.
