@@ -1,21 +1,39 @@
 
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+  }
 
 .container{
     display:grid;
     width: auto;
     margin:auto;
     grid-template-columns: 20px;
-    grid-template-rows: 70px 500px 100px;
+    grid-template-rows: 70px 800px 100px;
     grid-template-areas:
     "hd hd hd hd hd hd hd hd"
     "sd sd main main main main main main"
     "ft ft ft ft ft ft ft ft"
     
 }
-
+.title{
+    display: flex;
+    flex-direction:row;
+    background-color: #152224; 
+    font-family: 'Press Start 2P', cursive;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    align: center;
+    text-decoration: none;
+}
 .tabs {
     
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     background-color: #152224; 
     font-family: 'Press Start 2P', cursive;
     border: none;
@@ -33,29 +51,50 @@
     border-radius: 5px;
 
 }
-.header{
+.banner{
     grid-area: hd;
     background-color: #152224; 
     display: flex;
-    justify-content: flex-end;
-    flex-direction:row;
+    
 
     
 }
 
 .left {
     grid-area:sd;
-    background-color:rgb(52, 52, 118);
+    background-color:rgb(57, 57, 80);
 
 
 }
 .main{
     grid-area: main;
 
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a9b34251-7233-4daf-85fe-61977a6e709e/d33giex-532b993e-6f49-4889-b669-611c0c105de5.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9hOWIzNDI1MS03MjMzLTRkYWYtODVmZS02MTk3N2E2ZTcwOWUvZDMzZ2lleC01MzJiOTkzZS02ZjQ5LTQ4ODktYjY2OS02MTFjMGMxMDVkZTUuZ2lmIn1dXX0.fN2PQFe31wu9AST57H82pei8Y7QVNPg_KwM3moQM-OQ);
-    object-fit: cover;
-    background-color:rgb(186, 177, 165);
+   background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a9b34251-7233-4daf-85fe-61977a6e709e/d33giex-532b993e-6f49-4889-b669-611c0c105de5.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9hOWIzNDI1MS03MjMzLTRkYWYtODVmZS02MTk3N2E2ZTcwOWUvZDMzZ2lleC01MzJiOTkzZS02ZjQ5LTQ4ODktYjY2OS02MTFjMGMxMDVkZTUuZ2lmIn1dXX0.fN2PQFe31wu9AST57H82pei8Y7QVNPg_KwM3moQM-OQ);
+    object-fit: fill;
+    background-color:rgb(88, 80, 72);
 }
+
+ .card {
+    /* Add shadows to create the "card" effect */
+    margin-top: 20px;
+    border:4px solid rgb(57, 57, 80);
+    border-radius: 15px;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: rgb(204, 178, 152);
+    transition: 0.3s;
+    width: 300px;
+    height:400px;
+    justify-content: space-between;
+  }
+
+.container_1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
 
 #one{
     
