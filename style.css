@@ -22,21 +22,24 @@
     padding: 15px 32px;
     align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    
+    
 
 }
 
 .box{
-    border: 2px solid black;
+    border: 2px solid rgb(220, 208, 208);
+    border-radius: 5px;
 
 }
 .header{
     grid-area: hd;
     background-color: rgb(19, 151, 138);
     display: flex;
-    flex-direction:row;
     justify-content: flex-end;
+    flex-direction:row;
+
+    
 }
 
 .left {
