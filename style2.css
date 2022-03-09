@@ -102,15 +102,9 @@ header {
   background-size: cover;
 }
 
-img {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  height: 300px;
-  width: 300px;
-  border: 4px solid rgb(57, 57, 80);
-  border-radius: 360px;
-}
+
+
+
 
 .main .box {
   display: flex;
