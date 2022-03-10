@@ -6,26 +6,11 @@
 }
 
 
-@media only screen and (max-width: 768px) {
-
-.mainContainer{
-
-    display: grid;
-    width: auto;
-    margin: auto;
-    grid-template-columns: 10px;
-    grid-template-rows: 1fr 1fr 10fr 1fr;
-    grid-template-areas:
-    "hd hd"
-    "sd sd"
-    "main main"
-    "ft ft";
-  }
-}
 
 .mainContainer {
   display: grid;
   width: auto;
+  height: 100vh;
   margin: auto;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 0fr 10fr 1fr;
@@ -195,3 +180,20 @@ img{
   color: white;
   margin: center;
 }
+@media only screen and (max-width: 768px) {
+
+  .mainContainer{
+  
+      display: grid;
+      width: auto;
+      margin: auto;
+      grid-template-columns: 10px;
+      grid-template-rows: 1fr 1fr 10fr 1fr;
+      grid-template-areas:
+      "hd hd"
+      "sd sd"
+      "main main"
+      "ft ft";
+    }
+  }
+  
