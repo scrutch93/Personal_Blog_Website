@@ -1,9 +1,13 @@
-* {
+@import "header.css";
+@import "footer.css";
+@import "defaultMargin.css";
+
+/** {
   padding: 0;
   margin: 0;
   border: 0;
   outline: 0;
-}
+}*/
 
 .mainContainer {
   display: grid;
@@ -17,7 +21,7 @@
     "ft ft ft ft ft ft ft ft";
 }
 
-header {
+/*header {
   grid-area: hd;
   height: 70px;
   background-color: #152224;
@@ -50,7 +54,7 @@ header {
   text-decoration: none;
   color: inherit;
 }
-
+*/
 .main {
   padding-top: 20px;
   grid-area: main;
@@ -79,6 +83,7 @@ figure img{
 figure figcaption{
   display: flex;
   justify-content: center;
+  padding-top: 10px;
 
 }
 
@@ -150,7 +155,7 @@ figure figcaption{
   color: white;
 }
 
-.footer {
+/*.footer {
   grid-area: ft;
   background-color: #152224;
 }
@@ -178,4 +183,4 @@ figure figcaption{
   text-decoration: none;
   color: white;
   margin: center;
-}
+}*/

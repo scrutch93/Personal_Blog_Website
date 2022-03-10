@@ -5,12 +5,30 @@
   outline: 0;
 }
 
+
+@media only screen and (max-width: 768px) {
+
+.mainContainer{
+
+    display: grid;
+    width: auto;
+    margin: auto;
+    grid-template-columns: 10px;
+    grid-template-rows: 1fr 1fr 10fr 1fr;
+    grid-template-areas:
+    "hd hd"
+    "sd sd"
+    "main main"
+    "ft ft";
+  }
+}
+
 .mainContainer {
   display: grid;
   width: auto;
   margin: auto;
   grid-template-columns: repeat(6, 1fr);
-
+  grid-template-rows: 0fr 10fr 1fr;
   grid-template-areas:
     "hd hd hd hd hd hd hd hd"
     "sd main main main main main main main"
@@ -95,7 +113,7 @@ header {
 .main {
   grid-area: main;
   background-color: rgb(88, 80, 72);
-  font-family: "Press Start 2P", cursive;
+  font-family: 'Hind Siliguri', sans-serif;
   color: rgb(0, 0, 0);
   background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a9b34251-7233-4daf-85fe-61977a6e709e/d33giex-532b993e-6f49-4889-b669-611c0c105de5.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9hOWIzNDI1MS03MjMzLTRkYWYtODVmZS02MTk3N2E2ZTcwOWUvZDMzZ2lleC01MzJiOTkzZS02ZjQ5LTQ4ODktYjY2OS02MTFjMGMxMDVkZTUuZ2lmIn1dXX0.fN2PQFe31wu9AST57H82pei8Y7QVNPg_KwM3moQM-OQ);
   background-repeat: no-repeat;
@@ -113,8 +131,21 @@ header {
   justify-content: center;
 }
 
+img{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+  border: 4px solid rgb(57, 57, 80);
+  border-radius: 360px;
+  
+}
+
 .card {
   /* Add shadows to create the "card" effect */
+  display:flex;
+  flex-wrap: wrap;
   padding-top: 20px;
   padding-left: px;
   padding-left: 10px;

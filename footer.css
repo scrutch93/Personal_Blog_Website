@@ -1,0 +1,31 @@
+
+.footer {
+    grid-area: ft;
+    background-color: #152224;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 200px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-linkedin {
+    text-decoration: none;
+    color: white;
+    margin: center;
+  }
+  
+  .fa-github {
+    text-decoration: none;
+    color: white;
+    margin: center;
+  }
+  
