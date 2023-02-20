@@ -56,7 +56,7 @@ header {
 
 .side {
   grid-area: sd;
-  background-color: rgb(22, 12, 31);
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/beabdffc-1e01-47f0-8988-cde3fd808115/dez45u1-3540fc54-f404-429a-84fe-543d742aa416.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JlYWJkZmZjLTFlMDEtNDdmMC04OTg4LWNkZTNmZDgwODExNVwvZGV6NDV1MS0zNTQwZmM1NC1mNDA0LTQyOWEtODRmZS01NDNkNzQyYWE0MTYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1ozcBomV1WawR6dCYJ3SxqV_2NrLsSejVAl-oRFmB-M") ;
   font-family: "Press Start 2P", cursive;
   padding-top: 20px;
 }
