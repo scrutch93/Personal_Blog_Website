@@ -180,6 +180,39 @@ img{
   color: white;
   margin: center;
 }
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Align photos to the center */
+  margin-top: 20px;
+}
+
+.photos img {
+  width: 200px; /* Adjust image width as needed */
+  margin: 10px; /* Add spacing between images */
+  border: 4px solid rgb(57, 57, 80); /* Add border to images */
+  border-radius: 10px; /* Add border radius */
+  max-width: auto; /* Ensure the image doesn't exceed its parent's width */
+  height: auto; /* Allow the image height to adjust proportionally */
+}
+
+
+/* CSS for image zoom effect */
+.zoomable {
+  cursor: pointer; /* Change cursor to pointer on hover to indicate clickability */
+  transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+  max-width: 100%; /* Ensure the image doesn't exceed its parent's width */
+  height: auto; /* Allow the image height to adjust proportionally */
+}
+
+.zoomable:hover {
+  transform: scale(1.75); /* Increase scale on hover for zoomed effect */
+}
+
+
+
+
 @media only screen and (max-width: 768px) {
 
   .mainContainer{
